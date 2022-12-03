@@ -36,7 +36,6 @@ func (h *defaultHandler) OnReady() {
 		systray.SetIcon(assets.IconLight)
 	case configs.IconColor:
 		systray.SetIcon(assets.IconColor)
-		fallthrough
 	default:
 		systray.SetIcon(assets.IconDark)
 	}
